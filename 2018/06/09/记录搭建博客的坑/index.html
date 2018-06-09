@@ -35,7 +35,7 @@
     
     
   <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="/lib/pace/pace-theme-big-counter.min.css?v=1.0.2" rel="stylesheet">
+  <link href="/lib/pace/pace-theme-bounce.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -127,7 +127,7 @@
 <meta property="og:site_name" content="free island">
 <meta property="og:description" content="此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！  坑">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-06-09T09:22:29.336Z">
+<meta property="og:updated_time" content="2018-06-09T13:04:41.806Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+Github搭建博客遇到的坑">
 <meta name="twitter:description" content="此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！  坑">
@@ -391,7 +391,7 @@
                 
               
 
-              <time title="创建时间：2018-06-09 10:33:30 / 修改时间：17:22:29" itemprop="dateCreated datePublished" datetime="2018-06-09T10:33:30+08:00">2018-06-09</time>
+              <time title="创建时间：2018-06-09 10:33:30 / 修改时间：21:04:41" itemprop="dateCreated datePublished" datetime="2018-06-09T10:33:30+08:00">2018-06-09</time>
             
 
             
@@ -466,7 +466,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">502</span>
+                <span title="本文字数">2k</span>
               
 
               
@@ -480,7 +480,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 分钟</span>
+                <span title="阅读时长">2 分钟</span>
               
             </div>
           
@@ -503,8 +503,18 @@
         <blockquote>
 <p>此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！</p>
 </blockquote>
-<h2 id="坑堆"><a href="#坑堆" class="headerlink" title="坑堆"></a>坑堆</h2><h3 id="坑-编号1"><a href="#坑-编号1" class="headerlink" title="坑 编号1"></a>坑 编号1</h3><p>在站点配置文件中需要将language设置为你想要的语言，这里我们设置为中文，官方文档说的是:简体中文  zh-Hans  language: zh-Hans，但是！！！next主题版本6.3x里面的简体中文文件名居然是：zh-CN，我的个天，最开始我就说显示的文字怎么怪怪的，我设置是中文，它怎么飚出英文来了，莫名其妙。<br>不过没关系，我已经先踩坑了，朋友们现在这样设置就好了：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title: free island</span><br><span class="line"></span><br><span class="line">subtitle:</span><br><span class="line">description: 我喜欢你，比世界上任何一个人都要喜欢你</span><br><span class="line">keywords:</span><br><span class="line">author: 草帽当家</span><br><span class="line">language: zh-CN</span><br></pre></td></tr></table></figure></p>
-<h3 id="坑-编号2"><a href="#坑-编号2" class="headerlink" title="坑 编号2"></a>坑 编号2</h3>
+<h2 id="坑堆"><a href="#坑堆" class="headerlink" title="坑堆"></a>坑堆</h2><h3 id="坑-语言设置"><a href="#坑-语言设置" class="headerlink" title="坑 语言设置"></a>坑 语言设置</h3><p>在站点配置文件中需要将language设置为你想要的语言，这里我们设置为中文，官方文档说的是:简体中文 zh-Hans  language: zh-Hans，但是！！！next主题版本6.3x里面的简体中文文件名居然是：zh-CN，我的个天，最开始我就说显示的文字怎么怪怪的，我设置是中文，它怎么飚出英文来了，莫名其妙。<br>不过没关系，我已经先踩坑了，朋友们现在这样设置就好了：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title: free island</span><br><span class="line"></span><br><span class="line">subtitle:</span><br><span class="line">description: 我喜欢你，比世界上任何一个人都要喜欢你</span><br><span class="line">keywords:</span><br><span class="line">author: 草帽当家</span><br><span class="line">language: zh-CN</span><br></pre></td></tr></table></figure></p>
+<h3 id="坑-页面改动"><a href="#坑-页面改动" class="headerlink" title="坑 页面改动"></a>坑 页面改动</h3><p>在新建[标签]和[分类]页面时后，千万不要手贱把里面相应的index.md重新改名，改了之后将会出错，例如你点击标签将不会正确的跳转到相应的界面。</p>
+<h3 id="坑-背景动画"><a href="#坑-背景动画" class="headerlink" title="坑 背景动画"></a>坑 背景动画</h3><p>接着是设置背景动画，在主题配置中有对背景动画的信息描述，使用以下命令获得module<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/theme-next/theme-next-three</span><br></pre></td></tr></table></figure></p>
+<p>我们接着更改其中的值为true，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># JavaScript 3D library.</span><br><span class="line"># Dependencies: https://github.com/theme-next/theme-next-three</span><br><span class="line"># three_waves</span><br><span class="line">three_waves: true</span><br><span class="line"># canvas_lines</span><br><span class="line">canvas_lines: false</span><br><span class="line"># canvas_sphere</span><br><span class="line">canvas_sphere: false</span><br></pre></td></tr></table></figure></p>
+<p>但是测试的时候却仍然没有效果，这是为什么呢？不慌，先吃口药，我们点击<a href="https://github.com/theme-next/theme-next-three" target="_blank" rel="noopener">这里</a>去到官方地址，可以看到获取module他们使用的是这条命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/theme-next/theme-next-three source/lib/three</span><br></pre></td></tr></table></figure></p>
+<p>可以看到它是把文件全部放在了source/lib/three文件夹中，大家现在要把先前下载好的文件夹改名并放在上述路径中，接着更改你想要的背景动画的值为true就OK了，个人比较喜欢three_waves（手动滑稽）</p>
+<h3 id="坑-添加百度分享"><a href="#坑-添加百度分享" class="headerlink" title="坑 添加百度分享"></a>坑 添加百度分享</h3><p>按照<a href="http://theme-next.iissnan.com/third-party-services.html#share-baidu" target="_blank" rel="noopener">next主题官方使用文档</a>的描述，只需要修改baidushare的值为true即可，可是这样修改了没有看见我们想要的分享功能，在网上搜了相关的问题，终于找到解决办法，大家可以参考这篇博客：<br><blockquote><p>hexo next主题为博客添加分享功能</p>
+<footer><strong>@PinkPig</strong><cite><a href="https://www.jianshu.com/p/a1169877388c" target="_blank" rel="noopener">www.jianshu.com/p/a1169877388c</a></cite></footer></blockquote></p>
+<h3 id="坑-文章阅读量统计功能"><a href="#坑-文章阅读量统计功能" class="headerlink" title="坑 文章阅读量统计功能"></a>坑 文章阅读量统计功能</h3><p>最开始添加阅读量统计功能是参考这篇博客<br><blockquote><p>为NexT主题添加文章阅读量统计功能 </p>
+<footer><strong>@Doublemine</strong><cite><a href="https://notes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="noopener">notes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html#%E9%85%8D%E7%BD%AELeanCloud</a></cite></footer></blockquote><br>但是很遗憾的是照着教程来，阅读量统计不能正确显示，阅读次数那里显示的一直是 Counter is not initialized, 小生不才，还不知道怎么修改。好在的是我们找到了另外一种方法，在主题配置文件中有一个busuanzi_count的字段，我们只需要将它启用就好了。配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># Show Views/Visitors of the website/page with busuanzi.</span><br><span class="line"># Get more information on http://ibruce.info/2015/04/04/busuanzi/</span><br><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure></p>
+<h3 id="坑-小坑集合地"><a href="#坑-小坑集合地" class="headerlink" title="坑 小坑集合地"></a>坑 小坑集合地</h3><p>这里说一下，来比力评论系统好像不能使用，反正我配置了没有什么X用，大家有时间可以去试试，目前我使用的gitment，基本满足要求，还是比较推荐的。</p>
+
       
     </div>
 
@@ -526,7 +536,7 @@
 <p><span>本文标题:</span><a href="/2018/06/09/记录搭建博客的坑/">Hexo+Github搭建博客遇到的坑</a></p> 
 <p><span>文章作者:</span><a href="/" title="访问 草帽当家 的个人博客">草帽当家</a></p> 
 <p><span>发布时间:</span>2018年06月09日 - 10:06</p> 
-<p><span>最后更新:</span>2018年06月09日 - 17:06</p> 
+<p><span>最后更新:</span>2018年06月09日 - 21:06</p> 
 <p><span>原始链接:</span><a href="/2018/06/09/记录搭建博客的坑/" title="Hexo+Github搭建博客遇到的坑">http://yoursite.com/2018/06/09/记录搭建博客的坑/</a> 
 	<span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://yoursite.com/2018/06/09/记录搭建博客的坑/" aria-label="复制成功！"></i></span> 
 	</p> 
@@ -834,7 +844,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#坑堆"><span class="nav-number">1.</span> <span class="nav-text">坑堆</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-编号1"><span class="nav-number">1.1.</span> <span class="nav-text">坑 编号1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-编号2"><span class="nav-number">1.2.</span> <span class="nav-text">坑 编号2</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#坑堆"><span class="nav-number">1.</span> <span class="nav-text">坑堆</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-语言设置"><span class="nav-number">1.1.</span> <span class="nav-text">坑 语言设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-页面改动"><span class="nav-number">1.2.</span> <span class="nav-text">坑 页面改动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-背景动画"><span class="nav-number">1.3.</span> <span class="nav-text">坑 背景动画</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-添加百度分享"><span class="nav-number">1.4.</span> <span class="nav-text">坑 添加百度分享</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-文章阅读量统计功能"><span class="nav-number">1.5.</span> <span class="nav-text">坑 文章阅读量统计功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-小坑集合地"><span class="nav-number">1.6.</span> <span class="nav-text">坑 小坑集合地</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -869,7 +879,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">1k</span>
+    <span title="站点总字数">2k</span>
   
 
   
@@ -880,7 +890,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">1 分钟</span>
+    <span title="站点阅读时长">2 分钟</span>
   
 </div>
 
