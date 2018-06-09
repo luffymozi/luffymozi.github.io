@@ -122,7 +122,7 @@
   <meta name="description" content="我喜欢你，比世界上任何一个人都要喜欢你">
 <meta property="og:type" content="website">
 <meta property="og:title" content="free island">
-<meta property="og:url" content="http://yoursite.com/tags/forward/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/坑/index.html">
 <meta property="og:site_name" content="free island">
 <meta property="og:description" content="我喜欢你，比世界上任何一个人都要喜欢你">
 <meta property="og:locale" content="zh-CN">
@@ -135,7 +135,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/forward/"/>
+  <link rel="canonical" href="http://yoursite.com/tags/坑/"/>
 
 
 
@@ -145,7 +145,7 @@
   };
 </script>
 
-  <title>标签: forward | free island</title>
+  <title>标签: 坑 | free island</title>
   
 
 
@@ -357,7 +357,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>forward<small>标签</small>
+        <h1>坑<small>标签</small>
         </h1>
       </div>
 
@@ -369,9 +369,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/30/你好世界/" itemprop="url">
+            <a class="post-title-link" href="/2018/06/09/记录搭建博客的坑/" itemprop="url">
               
-                <span itemprop="name">你好世界</span>
+                <span itemprop="name">Hexo+Github搭建博客遇到的坑</span>
               
             </a>
         
@@ -379,9 +379,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-30T11:38:40+08:00"
-              content="2018-05-30" >
-          05-30
+              datetime="2018-06-09T10:33:30+08:00"
+              content="2018-06-09" >
+          06-09
         </time>
       </div>
 
@@ -442,7 +442,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -457,7 +457,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -561,7 +563,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">0k</span>
+    <span title="站点总字数">1k</span>
   
 
   
@@ -646,16 +648,14 @@
 
 
 
-  
-
-
-
-
-
 
 
   
   
+
+
+
+
 
 
 
@@ -680,17 +680,12 @@
 
   
   
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-  
-  
     <script type="text/javascript" src="/lib/three/three.min.js"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
   
 
 
@@ -1089,6 +1084,102 @@
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("lAFnS3WGIRjF2WVvTMRmgEf9-gzGzoHsz", "eMnau4IO855Jr31qxffTMboS");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            
+            counter.save(null, {
+              success: function(counter) {
+                
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
+              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
+            
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 

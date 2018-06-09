@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo+Github搭建博客遇到的坑]]></title>
+    <url>%2F2018%2F06%2F09%2F%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9D%91%2F</url>
+    <content type="text"><![CDATA[此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！ 坑堆坑 编号1在站点配置文件中需要将language设置为你想要的语言，这里我们设置为中文，官方文档说的是:简体中文 zh-Hans language: zh-Hans，但是！！！next主题版本6.3x里面的简体中文文件名居然是：zh-CN，我的个天，最开始我就说显示的文字怎么怪怪的，我设置是中文，它怎么飚出英文来了，莫名其妙。不过没关系，我已经先踩坑了，朋友们现在这样设置就好了：1234567title: free islandsubtitle:description: 我喜欢你，比世界上任何一个人都要喜欢你keywords:author: 草帽当家language: zh-CN 坑 编号2]]></content>
+      <categories>
+        <category>diary</category>
+        <category>hexo and next</category>
+      </categories>
+      <tags>
+        <tag>坑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[你好世界]]></title>
     <url>%2F2018%2F05%2F30%2F%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C%2F</url>
     <content type="text"><![CDATA[此生不悔入海贼Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
@@ -9,7 +21,6 @@
       </categories>
       <tags>
         <tag>test</tag>
-        <tag>forward</tag>
       </tags>
   </entry>
 </search>
