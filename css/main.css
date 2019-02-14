@@ -2018,7 +2018,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #77f6ff;
+  background: #a3ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3149,5 +3149,5 @@ body {
   background: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: 33% 66%;
 }
