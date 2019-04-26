@@ -116,14 +116,14 @@
 
 
   <meta name="description" content="此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！  坑">
-<meta name="keywords" content="坑">
+<meta name="keywords" content="坑,2018年6月">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo+Github搭建博客遇到的坑">
 <meta property="og:url" content="http://yoursite.com/2018/06/09/记录搭建博客的坑/index.html">
 <meta property="og:site_name" content="Free Island">
 <meta property="og:description" content="此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！  坑">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-06-09T17:05:54.354Z">
+<meta property="og:updated_time" content="2019-04-26T03:54:54.917Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+Github搭建博客遇到的坑">
 <meta name="twitter:description" content="此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！  坑">
@@ -408,7 +408,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-06-10 01:05:54" itemprop="dateModified" datetime="2018-06-10T01:05:54+08:00">2018-06-10</time>
+                <time title="修改时间：2019-04-26 11:54:54" itemprop="dateModified" datetime="2019-04-26T11:54:54+08:00">2019-04-26</time>
               
             
           </span>
@@ -526,7 +526,7 @@
 <h3 id="坑-文章阅读量统计功能"><a href="#坑-文章阅读量统计功能" class="headerlink" title="坑 文章阅读量统计功能"></a>坑 文章阅读量统计功能</h3><p>最开始添加阅读量统计功能是参考这篇博客<br><blockquote><p>为NexT主题添加文章阅读量统计功能 </p>
 <footer><strong>@Doublemine</strong><cite><a href="https://notes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="noopener">notes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html#%E9%85%8D%E7%BD%AELeanCloud</a></cite></footer></blockquote><br>但是很遗憾的是照着教程来，阅读量统计不能正确显示，阅读次数那里显示的一直是 Counter is not initialized, 小生不才，还不知道怎么修改。好在的是我们找到了另外一种方法，在主题配置文件中有一个busuanzi_count的字段，我们只需要将它启用就好了。配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># Show Views/Visitors of the website/page with busuanzi.</span><br><span class="line"># Get more information on http://ibruce.info/2015/04/04/busuanzi/</span><br><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure></p>
 <h3 id="坑-小坑集合地"><a href="#坑-小坑集合地" class="headerlink" title="坑 小坑集合地"></a>坑 小坑集合地</h3><p>这里说一下，来比力评论系统好像不能使用，反正我配置了没有什么X用，大家有时间可以去试试，目前我使用的gitment，基本满足要求，还是比较推荐的。还有一些功能照着教程设置了但还是没有看到效果，比如说在主页文章添加阴影效果，这个呢就….,先放着吧，无关紧要的。</p>
-<h3 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h3><blockquote>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><blockquote>
 <p>经过了三天左右的折腾，终于搭建好属于自己的博客了，也搞了点花里胡哨的功能，不过还是有点小成就感的。这里感谢一下几位朋友的博文帮助：<br><blockquote><p>5分钟 搭建免费个人博客 </p>
 <footer><strong>@dimsky</strong><cite><a href="https://www.jianshu.com/p/4eaddcbe4d12" target="_blank" rel="noopener">www.jianshu.com/p/4eaddcbe4d12</a></cite></footer></blockquote><br><blockquote><p>Next使用文档</p>
 <footer><strong>@Next</strong><cite><a href="http://theme-next.iissnan.com/getting-started.html#theme-settings" target="_blank" rel="noopener">theme-next.iissnan.com/getting-started.html#theme-settings</a></cite></footer></blockquote><br><blockquote><p>hexo的next主题个性化教程:打造炫酷网站</p>
@@ -554,7 +554,7 @@
 <p><span>本文标题:</span><a href="/2018/06/09/记录搭建博客的坑/">Hexo+Github搭建博客遇到的坑</a></p> 
 <p><span>文章作者:</span><a href="/" title="访问 草帽小铺 的个人博客">草帽小铺</a></p> 
 <p><span>发布时间:</span>2018年06月09日 - 10:06</p> 
-<p><span>最后更新:</span>2018年06月10日 - 01:06</p> 
+<p><span>最后更新:</span>2019年04月26日 - 11:04</p> 
 <p><span>原始链接:</span><a href="/2018/06/09/记录搭建博客的坑/" title="Hexo+Github搭建博客遇到的坑">http://yoursite.com/2018/06/09/记录搭建博客的坑/</a> 
 	<span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://yoursite.com/2018/06/09/记录搭建博客的坑/" aria-label="复制成功！"></i></span> 
 	</p> 
@@ -598,7 +598,7 @@
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="草帽小铺 微信支付"/>
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="草帽小铺 微信支付"/>
         <p>微信支付</p>
       </div>
     
@@ -626,6 +626,8 @@
           
             <a href="/tags/坑/" rel="tag"><i class="fa fa-tag"></i>坑</a>
           
+            <a href="/tags/2018年6月/" rel="tag"><i class="fa fa-tag"></i>2018年6月</a>
+          
         </div>
       
 
@@ -646,6 +648,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/24/初次接触IDEA/" rel="prev" title="初次接触IDEA">
+                初次接触IDEA <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -764,7 +770,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -781,7 +787,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -798,7 +806,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -840,10 +852,6 @@
                     <a href="https://laod.cn/" title="老D博客" target="_blank">老D博客</a>
                   </li>
                 
-                  <li class="links-of-blogroll-item">
-                    <a href="https://daimajia.com/category/android" title="代码家(Android)" target="_blank">代码家(Android)</a>
-                  </li>
-                
               </ul>
             </div>
           
@@ -866,7 +874,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#坑堆"><span class="nav-number">1.</span> <span class="nav-text">坑堆</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-语言设置"><span class="nav-number">1.1.</span> <span class="nav-text">坑 语言设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-页面改动"><span class="nav-number">1.2.</span> <span class="nav-text">坑 页面改动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-背景动画"><span class="nav-number">1.3.</span> <span class="nav-text">坑 背景动画</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-添加百度分享"><span class="nav-number">1.4.</span> <span class="nav-text">坑 添加百度分享</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-文章阅读量统计功能"><span class="nav-number">1.5.</span> <span class="nav-text">坑 文章阅读量统计功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-小坑集合地"><span class="nav-number">1.6.</span> <span class="nav-text">坑 小坑集合地</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#致谢"><span class="nav-number">1.7.</span> <span class="nav-text">致谢</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#坑堆"><span class="nav-number">1.</span> <span class="nav-text">坑堆</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-语言设置"><span class="nav-number">1.1.</span> <span class="nav-text">坑 语言设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-页面改动"><span class="nav-number">1.2.</span> <span class="nav-text">坑 页面改动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-背景动画"><span class="nav-number">1.3.</span> <span class="nav-text">坑 背景动画</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-添加百度分享"><span class="nav-number">1.4.</span> <span class="nav-text">坑 添加百度分享</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-文章阅读量统计功能"><span class="nav-number">1.5.</span> <span class="nav-text">坑 文章阅读量统计功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑-小坑集合地"><span class="nav-number">1.6.</span> <span class="nav-text">坑 小坑集合地</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#致谢"><span class="nav-number">2.</span> <span class="nav-text">致谢</span></a></li></ol></div>
             
 
           </div>
@@ -901,7 +909,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">3k</span>
+    <span title="站点总字数">5k</span>
   
 
   
@@ -912,7 +920,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">2 分钟</span>
+    <span title="站点阅读时长">4 分钟</span>
   
 </div>
 
