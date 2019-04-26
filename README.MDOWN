@@ -13,12 +13,12 @@
 
 ### 草帽小铺
 这是一个主要分享技术和生活感悟的公众号，目前正在运营中，扫描下面二维码，欢迎大家关注我呀
-![](./public/images/草帽小铺.jpg)
+![](https://github.com/luffymozi/luffymozi.github.io/blob/master/images/%E8%8D%89%E5%B8%BD%E5%B0%8F%E9%93%BA.jpg)
 
 ### 草帽派
 这是一个主要分享壁纸以及最近动漫热剧资源分享的公众号，换张壁纸换个心情吧，不定期每晚9点发图，你的手机在向你要求换壁纸啦，扫描下面二维码，欢迎大家关注我呀
-![](./public/images/草帽派.jpg)
+![](https://github.com/luffymozi/luffymozi.github.io/blob/master/images/%E8%8D%89%E5%B8%BD%E6%B4%BE.jpg)
 
 ## 赞赏作者
 原创不易，分享更是不易，希望我的工作有帮助到你，欢迎认可我的赞赏我啊，赞赏我啊，赏我啊，我啊，啊····
-![](./public/images/wechatpay.png)
+![](https://github.com/luffymozi/luffymozi.github.io/blob/master/images/wechatpay.png)
