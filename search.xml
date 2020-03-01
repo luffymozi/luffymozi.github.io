@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[初次接触IDEA]]></title>
-    <url>%2F2019%2F04%2F24%2F%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6IDEA%2F</url>
-    <content type="text"><![CDATA[大家好，我是草帽当家，此篇博客记录在安装IDEA过程中遇到的各种问题，以及向各位朋友简单安利一波这个开发利器，它的名字叫IDEA，体验比eclipse要好很多，本身软件就有许多厉害得不行的功能，例如查看项目的拓扑图、类图等，还有许多让人不禁发出“啊？还有这种操作”的惊叹声的插件，文章后面慢慢推荐给各位。请欣赏下面的表演👇 安装与插件推荐先下载撒首先进入官网下载，看下图点击下载对应的操作系统版本即可（这里以Windows版本为例），下载好双击安装包，进入下面的环节。 注册使用当然有那个资金支持正版最好，这里给出一个很nice的网站点击我来注册吧,里面有多种注册软件的方法，个人建议使用注册码的方法，还是比较简单的，进去看教程就知道了，我这里就不啰嗦了。 马上给我汉化起来大佬们可以直接用软件自带的界面语言，我这个英语渣渣还是想用汉化包，由于本次下载是2019年的新版，以前2018版的IDEA的汉化包就出现了一些问题，比如点击【设置】软件没有反应，我：？？？ 这样你还让我怎么进去安装好看的插件？(安装插件必须进入设置选项里面操作)这谁顶得住啊，网上搜了许多解决方法，说是删除汉化包里面【messages】文件夹里的对应文件①IdeBundle.properties(系统设置(setting)外观选项加载不出来)②VcsBundle.properties(系统设置(setting)打不开)③UIBundle.properties(定位按钮找不到)可以解决对应问题。这个还没有试过，朋友们可以自行尝试，反正我最开始用的其他方法，期间我稀里糊涂的要去用命令行打包jar文件，搞得我真的是脑壳痛。于是我就去搜索其他汉化包，终于皇天不负有心人，在某个博客看见了一个GitHub地址，里面是JetBrains系列软件汉化包集合，都是实时更新的，我哩个乖乖，GitHub真是个宝地，所以大家之后有些资源或者问题可以上GitHub搜索看，说不定就解决你的疑惑了，可能还会交到gay友哦，毕竟是全球大型同性交友网站😏，这是汉化包集合地址，该项目已经有1.9K的star了，小而精的代表。 插件推荐一波这里有的博主已经整理好了，详情参考这篇博客推荐几个IDEA插件，Java开发者撸码利器 @纪莫www.cnblogs.com/jimoer/p/8799437.html向我这么喜欢搞事情的人，肯定要一些花里胡哨的功能撒，这里着重推荐几个界面美化插件.安装插件流程：file-&gt;setting-&gt;plugins-&gt;Marketplace,下载好重启IDEA就可以了。专注技术的可以不怎么看我下面的介绍，好，开工.①萌萌哒加载条插件（Nyan progress bar）有没有很萌🤗②主题插件(Material Theme UI)这是一款很好看的主题插件，能够让你的界面图标变得多姿多彩，强烈安利！（最后放完整图）③背景图片插件（Background image Plus+）可以设置你的IDE界面背景哦，我觉得做的很好的一点就是背景图片颜色不会太突出，完美契合主题插件，不会分散我们编程的注意力。（最后放完整图）④彩虹括号（Rainbow Brackets）这款插件能够让代码中的括号拥有彩虹一样的颜色，而且有个好处就是括号太多时，我们可以通过颜色找到匹配的括号，很赞哦。⑤酷炫敲代码插件（activate-power-mode）这款简直是装逼神器，当你敲代码时，满满的硬核编程感，屏幕也在跟着你的代码敲击抖动，看图这是我集合各个插件最终界面，如图 好了，我说的这些只是些美化界面的插件，一些实用的插件可以看本小节开始放出的博客地址，大家试着去弄一下吧！ 致谢在安装过程中，遇到许多问题，很感谢前人为后来人踩的坑，下面是几位朋友的博文或者其他：IDEA注册码 @lanyuidea.lanyus.comJetBrains 系列软件汉化包 @pingfangxgithub.com/pingfangx/TranslatorX推荐几个IDEA插件，Java开发者撸码利器 @纪莫www.cnblogs.com/jimoer/p/8799437.html 草帽当家想说的好的开发工具能够提升我们工作效率，同时好看的界面和优质的插件能够让我们开发变得更加有趣，在每次捣鼓新东西时，总会有一定的收获，分享给各位朋友，有的人从中能获得某些东西，这个过程让我感到有意义，试着去改变一下吧，IDEA你值得拥有！ 你们都是有经验的开发者🤘]]></content>
+    <title>你好世界</title>
+    <url>/2020/03/01/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</url>
+    <content><![CDATA[<blockquote>
+<p>此生不悔入海贼<br>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+</blockquote>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初次接触IDEA</title>
+    <url>/2019/04/24/%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6IDEA/</url>
+    <content><![CDATA[<blockquote>
+<p>大家好，我是草帽当家，此篇博客记录在安装IDEA过程中遇到的各种问题，以及向各位朋友简单安利一波这个开发利器，它的名字叫IDEA，体验比eclipse要好很多，本身软件就有许多厉害得不行的功能，例如查看项目的拓扑图、类图等，还有许多让人不禁发出“啊？还有这种操作”的惊叹声的插件，文章后面慢慢推荐给各位。请欣赏下面的表演👇</p>
+</blockquote>
+<h2 id="安装与插件推荐"><a href="#安装与插件推荐" class="headerlink" title="安装与插件推荐"></a>安装与插件推荐</h2><h3 id="先下载撒"><a href="#先下载撒" class="headerlink" title="先下载撒"></a>先下载撒</h3><p>首先进入<a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener">官网下载</a>，看下图<br><img src="/2019/04/24/%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6IDEA/IDEA下载.png" alt="IDEA下载"><br>点击下载对应的操作系统版本即可（这里以Windows版本为例），下载好双击安装包，进入下面的环节。</p>
+<h3 id="注册使用"><a href="#注册使用" class="headerlink" title="注册使用"></a>注册使用</h3><p>当然有那个资金支持正版最好，这里给出一个很nice的网站<a href="http://idea.lanyus.com/" target="_blank" rel="noopener">点击我来注册吧</a>,里面有多种注册软件的方法，个人建议使用注册码的方法，还是比较简单的，进去看教程就知道了，我这里就不啰嗦了。</p>
+<h3 id="马上给我汉化起来"><a href="#马上给我汉化起来" class="headerlink" title="马上给我汉化起来"></a>马上给我汉化起来</h3><p>大佬们可以直接用软件自带的界面语言，我这个英语渣渣还是想用汉化包，由于本次下载是2019年的新版，以前2018版的IDEA的汉化包就出现了一些问题，比如点击【设置】软件没有反应，我：？？？ 这样你还让我怎么进去安装好看的插件？(安装插件必须进入设置选项里面操作)这谁顶得住啊，网上搜了许多解决方法，说是删除汉化包里面【messages】文件夹里的对应文件<br>①IdeBundle.properties(系统设置(setting)外观选项加载不出来)<br>②VcsBundle.properties(系统设置(setting)打不开)<br>③UIBundle.properties(定位按钮找不到)<br>可以解决对应问题。这个还没有试过，朋友们可以自行尝试，反正我最开始用的其他方法，期间我稀里糊涂的要去用命令行打包jar文件，搞得我真的是脑壳痛。<br>于是我就去搜索其他汉化包，终于皇天不负有心人，在某个博客看见了一个GitHub地址，里面是JetBrains系列软件汉化包集合，都是实时更新的，我哩个乖乖，GitHub真是个宝地，所以大家之后有些资源或者问题可以上GitHub搜索看，说不定就解决你的疑惑了，可能还会交到gay友哦，毕竟是全球大型同性交友网站😏，这是<a href="https://github.com/pingfangx/TranslatorX" target="_blank" rel="noopener">汉化包集合地址</a>，该项目已经有1.9K的star了，小而精的代表。</p>
+<h3 id="插件推荐一波"><a href="#插件推荐一波" class="headerlink" title="插件推荐一波"></a>插件推荐一波</h3><p>这里有的博主已经整理好了，详情参考这篇博客<br><blockquote><p>推荐几个IDEA插件，Java开发者撸码利器</p>
+<footer><strong>@纪莫</strong><cite><a href="https://www.cnblogs.com/jimoer/p/8799437.html" target="_blank" rel="noopener">www.cnblogs.com/jimoer/p/8799437.html</a></cite></footer></blockquote><br>向我这么喜欢搞事情的人，肯定要一些花里胡哨的功能撒，这里着重推荐几个界面美化插件.<br>安装插件流程：file-&gt;setting-&gt;plugins-&gt;Marketplace,下载好重启IDEA就可以了。<br>专注技术的可以不怎么看我下面的介绍，好，开工.<br>①萌萌哒加载条插件（Nyan progress bar）<br><img src="/2019/04/24/%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6IDEA/bar加载条.png" alt="bar加载条"><br>有没有很萌🤗<br>②主题插件(Material Theme UI)<br>这是一款很好看的主题插件，能够让你的界面图标变得多姿多彩，强烈安利！（最后放完整图）<br>③背景图片插件（Background image Plus+）<br>可以设置你的IDE界面背景哦，我觉得做的很好的一点就是背景图片颜色不会太突出，完美契合主题插件，不会分散我们编程的注意力。（最后放完整图）<br>④彩虹括号（Rainbow Brackets）<br>这款插件能够让代码中的括号拥有彩虹一样的颜色，而且有个好处就是括号太多时，我们可以通过颜色找到匹配的括号，很赞哦。<br><img src="/2019/04/24/%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6IDEA/彩虹括号.png" alt="彩虹括号"><br>⑤酷炫敲代码插件（activate-power-mode）<br>这款简直是装逼神器，当你敲代码时，满满的硬核编程感，屏幕也在跟着你的代码敲击抖动，看图<br><img src="/2019/04/24/%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6IDEA/装逼模式.gif" alt="装逼模式"><br>这是我集合各个插件最终界面，如图<br><img src="/2019/04/24/%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6IDEA/最终界面效果.png" alt="最终界面效果"></p>
+<p>好了，我说的这些只是些美化界面的插件，一些实用的插件可以看本小节开始放出的博客地址，大家试着去弄一下吧！</p>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p>在安装过程中，遇到许多问题，很感谢前人为后来人踩的坑，下面是几位朋友的博文或者其他：<br><blockquote><p>IDEA注册码</p>
+<footer><strong>@lanyu</strong><cite><a href="http://idea.lanyus.com/" target="_blank" rel="noopener">idea.lanyus.com</a></cite></footer></blockquote><br><blockquote><p>JetBrains 系列软件汉化包</p>
+<footer><strong>@pingfangx</strong><cite><a href="https://github.com/pingfangx/TranslatorX" target="_blank" rel="noopener">github.com/pingfangx/TranslatorX</a></cite></footer></blockquote><br><blockquote><p>推荐几个IDEA插件，Java开发者撸码利器</p>
+<footer><strong>@纪莫</strong><cite><a href="https://www.cnblogs.com/jimoer/p/8799437.html" target="_blank" rel="noopener">www.cnblogs.com/jimoer/p/8799437.html</a></cite></footer></blockquote></p>
+<h2 id="草帽当家想说的"><a href="#草帽当家想说的" class="headerlink" title="草帽当家想说的"></a>草帽当家想说的</h2><p>好的开发工具能够提升我们工作效率，同时好看的界面和优质的插件能够让我们开发变得更加有趣，在每次捣鼓新东西时，总会有一定的收获，分享给各位朋友，有的人从中能获得某些东西，这个过程让我感到有意义，试着去改变一下吧，IDEA你值得拥有！</p>
+<p>你们都是有经验的开发者🤘</p>
+]]></content>
       <categories>
         <category>diary</category>
         <category>IDEA</category>
@@ -14,9 +51,26 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hexo+Github搭建博客遇到的坑]]></title>
-    <url>%2F2018%2F06%2F09%2F%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9D%91%2F</url>
-    <content type="text"><![CDATA[此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！ 坑堆坑 语言设置在站点配置文件中需要将language设置为你想要的语言，这里我们设置为中文，官方文档说的是:简体中文 zh-Hans language: zh-Hans，但是！！！next主题版本6.3x里面的简体中文文件名居然是：zh-CN，我的个天，最开始我就说显示的文字怎么怪怪的，我设置是中文，它怎么飚出英文来了，莫名其妙。不过没关系，我已经先踩坑了，朋友们现在这样设置就好了：1234567title: free islandsubtitle:description: 我喜欢你，比世界上任何一个人都要喜欢你keywords:author: 草帽当家language: zh-CN 坑 页面改动在新建[标签]和[分类]页面时后，千万不要手贱把里面相应的index.md重新改名，改了之后将会出错，例如你点击标签将不会正确的跳转到相应的界面。 坑 背景动画接着是设置背景动画，在主题配置中有对背景动画的信息描述，使用以下命令获得module1git clone https://github.com/theme-next/theme-next-three 我们接着更改其中的值为true，12345678# JavaScript 3D library.# Dependencies: https://github.com/theme-next/theme-next-three# three_wavesthree_waves: true# canvas_linescanvas_lines: false# canvas_spherecanvas_sphere: false 但是测试的时候却仍然没有效果，这是为什么呢？不慌，先吃口药，我们点击这里去到官方地址，可以看到获取module他们使用的是这条命令：1$ git clone https://github.com/theme-next/theme-next-three source/lib/three 可以看到它是把文件全部放在了source/lib/three文件夹中，大家现在要把先前下载好的文件夹改名并放在上述路径中，接着更改你想要的背景动画的值为true就OK了，个人比较喜欢three_waves（手动滑稽） 坑 添加百度分享按照next主题官方使用文档的描述，只需要修改baidushare的值为true即可，可是这样修改了没有看见我们想要的分享功能，在网上搜了相关的问题，终于找到解决办法，大家可以参考这篇博客：hexo next主题为博客添加分享功能 @PinkPigwww.jianshu.com/p/a1169877388c 坑 文章阅读量统计功能最开始添加阅读量统计功能是参考这篇博客为NexT主题添加文章阅读量统计功能 @Doubleminenotes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html#%E9%85%8D%E7%BD%AELeanCloud但是很遗憾的是照着教程来，阅读量统计不能正确显示，阅读次数那里显示的一直是 Counter is not initialized, 小生不才，还不知道怎么修改。好在的是我们找到了另外一种方法，在主题配置文件中有一个busuanzi_count的字段，我们只需要将它启用就好了。配置如下：12345678910# Show Views/Visitors of the website/page with busuanzi.# Get more information on http://ibruce.info/2015/04/04/busuanzi/busuanzi_count: enable: true total_visitors: true total_visitors_icon: user total_views: true total_views_icon: eye post_views: true post_views_icon: eye 坑 小坑集合地这里说一下，来比力评论系统好像不能使用，反正我配置了没有什么X用，大家有时间可以去试试，目前我使用的gitment，基本满足要求，还是比较推荐的。还有一些功能照着教程设置了但还是没有看到效果，比如说在主页文章添加阴影效果，这个呢就….,先放着吧，无关紧要的。 致谢 经过了三天左右的折腾，终于搭建好属于自己的博客了，也搞了点花里胡哨的功能，不过还是有点小成就感的。这里感谢一下几位朋友的博文帮助：5分钟 搭建免费个人博客 @dimskywww.jianshu.com/p/4eaddcbe4d12Next使用文档 @Nexttheme-next.iissnan.com/getting-started.html#theme-settingshexo的next主题个性化教程:打造炫酷网站 @Moorezwww.jianshu.com/p/f054333ac9e6]]></content>
+    <title>Hexo+Github搭建博客遇到的坑</title>
+    <url>/2018/06/09/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<blockquote>
+<p>此篇博客用于记录自己使用Hexo+Github搭建个人博客所遇到的坑，博主使用的是目前hexo主题中star最多的next主题，简约风，个人感觉还是很好的，对了，这里主要有两个配置文件，一个是站点配置文件_config.yml,就在你的站点目录下，另一个是主题配置文件_config.yml,它在/themes/next/文件夹中，这两个文件不难找的，OK，接着说正事，我们一起来慢慢找坑吧！</p>
+</blockquote>
+<h2 id="坑堆"><a href="#坑堆" class="headerlink" title="坑堆"></a>坑堆</h2><h3 id="坑-语言设置"><a href="#坑-语言设置" class="headerlink" title="坑 语言设置"></a>坑 语言设置</h3><p>在站点配置文件中需要将language设置为你想要的语言，这里我们设置为中文，官方文档说的是:简体中文 zh-Hans  language: zh-Hans，但是！！！next主题版本6.3x里面的简体中文文件名居然是：zh-CN，我的个天，最开始我就说显示的文字怎么怪怪的，我设置是中文，它怎么飚出英文来了，莫名其妙。<br>不过没关系，我已经先踩坑了，朋友们现在这样设置就好了：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: free island</span><br><span class="line"></span><br><span class="line">subtitle:</span><br><span class="line">description: 我喜欢你，比世界上任何一个人都要喜欢你</span><br><span class="line">keywords:</span><br><span class="line">author: 草帽当家</span><br><span class="line">language: zh-CN</span><br></pre></td></tr></table></figure></p>
+<h3 id="坑-页面改动"><a href="#坑-页面改动" class="headerlink" title="坑 页面改动"></a>坑 页面改动</h3><p>在新建[标签]和[分类]页面时后，千万不要手贱把里面相应的index.md重新改名，改了之后将会出错，例如你点击标签将不会正确的跳转到相应的界面。</p>
+<h3 id="坑-背景动画"><a href="#坑-背景动画" class="headerlink" title="坑 背景动画"></a>坑 背景动画</h3><p>接着是设置背景动画，在主题配置中有对背景动画的信息描述，使用以下命令获得module<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-three</span><br></pre></td></tr></table></figure><br>我们接着更改其中的值为true，<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># JavaScript 3D library.</span><br><span class="line"># Dependencies: https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-three</span><br><span class="line"># three_waves</span><br><span class="line">three_waves: true</span><br><span class="line"># canvas_lines</span><br><span class="line">canvas_lines: false</span><br><span class="line"># canvas_sphere</span><br><span class="line">canvas_sphere: false</span><br></pre></td></tr></table></figure><br>但是测试的时候却仍然没有效果，这是为什么呢？不慌，先吃口药，我们点击<a href="https://github.com/theme-next/theme-next-three" target="_blank" rel="noopener">这里</a>去到官方地址，可以看到获取module他们使用的是这条命令：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-three source&#x2F;lib&#x2F;three</span><br></pre></td></tr></table></figure><br>可以看到它是把文件全部放在了source/lib/three文件夹中，大家现在要把先前下载好的文件夹改名并放在上述路径中，接着更改你想要的背景动画的值为true就OK了，个人比较喜欢three_waves（手动滑稽）</p>
+<h3 id="坑-添加百度分享"><a href="#坑-添加百度分享" class="headerlink" title="坑 添加百度分享"></a>坑 添加百度分享</h3><p>按照<a href="http://theme-next.iissnan.com/third-party-services.html#share-baidu" target="_blank" rel="noopener">next主题官方使用文档</a>的描述，只需要修改baidushare的值为true即可，可是这样修改了没有看见我们想要的分享功能，在网上搜了相关的问题，终于找到解决办法，大家可以参考这篇博客：<br><blockquote><p>hexo next主题为博客添加分享功能</p>
+<footer><strong>@PinkPig</strong><cite><a href="https://www.jianshu.com/p/a1169877388c" target="_blank" rel="noopener">www.jianshu.com/p/a1169877388c</a></cite></footer></blockquote></p>
+<h3 id="坑-文章阅读量统计功能"><a href="#坑-文章阅读量统计功能" class="headerlink" title="坑 文章阅读量统计功能"></a>坑 文章阅读量统计功能</h3><p>最开始添加阅读量统计功能是参考这篇博客<br><blockquote><p>为NexT主题添加文章阅读量统计功能 </p>
+<footer><strong>@Doublemine</strong><cite><a href="https://notes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="noopener">notes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html#%E9%85%8D%E7%BD%AELeanCloud</a></cite></footer></blockquote><br>但是很遗憾的是照着教程来，阅读量统计不能正确显示，阅读次数那里显示的一直是 Counter is not initialized, 小生不才，还不知道怎么修改。好在的是我们找到了另外一种方法，在主题配置文件中有一个busuanzi_count的字段，我们只需要将它启用就好了。配置如下：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Show Views&#x2F;Visitors of the website&#x2F;page with busuanzi.</span><br><span class="line"># Get more information on http:&#x2F;&#x2F;ibruce.info&#x2F;2015&#x2F;04&#x2F;04&#x2F;busuanzi&#x2F;</span><br><span class="line">busuanzi_count:</span><br><span class="line">  enable: true</span><br><span class="line">  total_visitors: true</span><br><span class="line">  total_visitors_icon: user</span><br><span class="line">  total_views: true</span><br><span class="line">  total_views_icon: eye</span><br><span class="line">  post_views: true</span><br><span class="line">  post_views_icon: eye</span><br></pre></td></tr></table></figure></p>
+<h3 id="坑-小坑集合地"><a href="#坑-小坑集合地" class="headerlink" title="坑 小坑集合地"></a>坑 小坑集合地</h3><p>这里说一下，来比力评论系统好像不能使用，反正我配置了没有什么X用，大家有时间可以去试试，目前我使用的gitment，基本满足要求，还是比较推荐的。还有一些功能照着教程设置了但还是没有看到效果，比如说在主页文章添加阴影效果，这个呢就….,先放着吧，无关紧要的。</p>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><blockquote>
+<p>经过了三天左右的折腾，终于搭建好属于自己的博客了，也搞了点花里胡哨的功能，不过还是有点小成就感的。这里感谢一下几位朋友的博文帮助：<br><blockquote><p>5分钟 搭建免费个人博客 </p>
+<footer><strong>@dimsky</strong><cite><a href="https://www.jianshu.com/p/4eaddcbe4d12" target="_blank" rel="noopener">www.jianshu.com/p/4eaddcbe4d12</a></cite></footer></blockquote><br><blockquote><p>Next使用文档</p>
+<footer><strong>@Next</strong><cite><a href="http://theme-next.iissnan.com/getting-started.html#theme-settings" target="_blank" rel="noopener">theme-next.iissnan.com/getting-started.html#theme-settings</a></cite></footer></blockquote><br><blockquote><p>hexo的next主题个性化教程:打造炫酷网站</p>
+<footer><strong>@Moorez</strong><cite><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">www.jianshu.com/p/f054333ac9e6</a></cite></footer></blockquote></p>
+</blockquote>
+]]></content>
       <categories>
         <category>diary</category>
         <category>hexo and next</category>
@@ -25,17 +79,6 @@
         <tag>坑</tag>
         <tag>博客搭建</tag>
         <tag>2018年6月</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[你好世界]]></title>
-    <url>%2F2018%2F05%2F30%2F%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C%2F</url>
-    <content type="text"><![CDATA[此生不悔入海贼Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
       </tags>
   </entry>
 </search>
