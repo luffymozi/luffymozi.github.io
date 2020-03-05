@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Free Island
+title: Sunny 号
 
 subtitle: 作者:草帽当家
-description: 欢迎您扫一扫上面的微信公众号，更多优质分享，关注我不迷路！
+description: 海贼王，我当定了✊
 keywords:
-author: 草帽小铺
+author: 草帽当家
 language: zh-CN
 
 timezone:
@@ -43,7 +43,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -89,9 +89,40 @@ symbols_count_time:
   total_symbols: true
   total_time: true
 
+leancloud_counter_security:
+  enable_sync: true
+  app_id: ma06vxLXgDolN9osc5zQFLWz-gzGzoHsz
+  app_key: EmR2dGVC6k7D2vBs432FpKCf
+  username: luffymozi
+  password: LQ612leancloud
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: kesyoban #live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 300
+    height: 400
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
 # Deployment
+ #type: leancloud_counter_security_sync
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/luffymozi/luffymozi.github.io.git
+    type: git
+    repository: 
+      github: https://github.com/luffymozi/luffymozi.github.io.git
+      coding: git@e.coding.net:luffymozi/luffymozi.git
+   
+   
+    
 
