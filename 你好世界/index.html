@@ -128,7 +128,7 @@
   <meta name="description" content="此生不悔入海贼Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHu">
 <meta property="og:type" content="article">
 <meta property="og:title" content="你好世界">
-<meta property="og:url" content="http://yoursite.com/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/index.html">
+<meta property="og:url" content="https://sunny.chat/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/index.html">
 <meta property="og:site_name" content="Sunny 号">
 <meta property="og:description" content="此生不悔入海贼Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHu">
 <meta property="og:locale" content="zh_CN">
@@ -143,7 +143,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/你好世界/"/>
+  <link rel="canonical" href="https://sunny.chat/你好世界/"/>
 
 
 
@@ -369,7 +369,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/">
+    <link itemprop="mainEntityOfPage" href="https://sunny.chat/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="草帽当家">
@@ -456,6 +456,17 @@
           
 
           
+          
+             <span id="/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/" class="leancloud_visitors" data-flag-title="你好世界">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -547,8 +558,8 @@
 <p><span>文章作者:</span><a href="/" title="访问 草帽当家 的个人博客">草帽当家</a></p> 
 <p><span>发布时间:</span>2020年03月01日 - 15:03</p> 
 <p><span>最后更新:</span>2020年03月01日 - 16:03</p> 
-<p><span>原始链接:</span><a href="/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/" title="你好世界">http://yoursite.com/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</a> 
-	<span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://yoursite.com/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/" aria-label="复制成功！"></i></span> 
+<p><span>原始链接:</span><a href="/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/" title="你好世界">https://sunny.chat/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</a> 
+	<span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://sunny.chat/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/" aria-label="复制成功！"></i></span> 
 	</p> 
 	<p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p> 
 </div> 
@@ -1632,6 +1643,118 @@ show_date_time();
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("ma06vxLXgDolN9osc5zQFLWz-gzGzoHsz", "EmR2dGVC6k7D2vBs432FpKCf");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            
+            counter.save(null, {
+              success: function(counter) {
+                
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            
+              var newcounter = new Counter();
+              /* Set ACL */
+              var acl = new AV.ACL();
+              acl.setPublicReadAccess(true);
+              acl.setPublicWriteAccess(true);
+              newcounter.setACL(acl);
+              /* End Set ACL */
+              newcounter.set("title", title);
+              newcounter.set("url", url);
+              newcounter.set("time", 1);
+              newcounter.save(null, {
+                success: function(newcounter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                },
+                error: function(newcounter, error) {
+                  console.log('Failed to create');
+                }
+              });
+            
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
