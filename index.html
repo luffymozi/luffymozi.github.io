@@ -540,7 +540,7 @@
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="/images/%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/%E8%A3%85%E9%80%BC%E6%A8%A1%E5%BC%8F.gif" rel="gallery_ck7e4m59k0002u8ulhpor41zq"
+                 href="/images/%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/%E8%A3%85%E9%80%BC%E6%A8%A1%E5%BC%8F.gif" rel="gallery_ck7e6zdn7000434ul568s873k"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="/images/%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/%E8%A3%85%E9%80%BC%E6%A8%A1%E5%BC%8F.gif" itemprop="contentUrl"/>
               </a>
@@ -792,7 +792,7 @@
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="/images/%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/default-banner-light.jpg" rel="gallery_ck7e4m59q0007u8ulgt5ugqhb"
+                 href="/images/%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/default-banner-light.jpg" rel="gallery_ck7e6zdna000834ul0iav0ozf"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="/images/%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/default-banner-light.jpg" itemprop="contentUrl"/>
               </a>
@@ -2227,9 +2227,25 @@ show_date_time();
             });
           } else {
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
+              var newcounter = new Counter();
+              /* Set ACL */
+              var acl = new AV.ACL();
+              acl.setPublicReadAccess(true);
+              acl.setPublicWriteAccess(true);
+              newcounter.setACL(acl);
+              /* End Set ACL */
+              newcounter.set("title", title);
+              newcounter.set("url", url);
+              newcounter.set("time", 1);
+              newcounter.save(null, {
+                success: function(newcounter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                },
+                error: function(newcounter, error) {
+                  console.log('Failed to create');
+                }
+              });
             
           }
         },
