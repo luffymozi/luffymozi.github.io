@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020目标</title>
-    <url>/2020%E7%9B%AE%E6%A0%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <title>前进中的2020</title>
+    <url>/%E5%89%8D%E8%BF%9B%E4%B8%AD%E7%9A%842020/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>虽然2020年开头有点残酷，但我们还得努力活着,不是吗?</p>
+</blockquote>
+<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>简单点说就是</p>
+<blockquote class="blockquote-center">全家身体健康！</blockquote><br><blockquote class="blockquote-center">工作顺利！</blockquote><br><blockquote class="blockquote-center">B站粉丝突破<font color="#FF8C00" size="10">10万</font>！</blockquote>
+
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>目标</tag>
+        <tag>2020</tag>
+      </tags>
   </entry>
   <entry>
     <title>你好世界</title>
@@ -21,11 +35,8 @@
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
       <categories>
-        <category>diary</category>
+        <category>技术</category>
       </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
   </entry>
   <entry>
     <title>初次接触IDEA</title>
@@ -47,10 +58,12 @@
 <p>你们都是有经验的开发者🤘</p>
 ]]></content>
       <categories>
-        <category>diary</category>
-        <category>IDEA</category>
+        <category>技术</category>
+        <category>Tech</category>
       </categories>
       <tags>
+        <tag>hexo</tag>
+        <tag>IDEA</tag>
         <tag>记录坑</tag>
         <tag>编程工具</tag>
       </tags>
@@ -77,13 +90,13 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>diary</category>
-        <category>hexo and next</category>
+        <category>技术</category>
+        <category>Tech</category>
       </categories>
       <tags>
+        <tag>hexo</tag>
         <tag>坑</tag>
         <tag>博客搭建</tag>
-        <tag>2018年6月</tag>
       </tags>
   </entry>
 </search>
