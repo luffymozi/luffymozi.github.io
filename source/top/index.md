@@ -22,7 +22,7 @@ description: 博客文章阅读量排行榜
             time=result.time;
             title=result.title;
             url=result.url;
-            var content="<a href='"+"https://luffymozi.github.io"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"【文章热度:"+time+"℃】"+"</font>"+"<br /><br />";
+            var content="<a href='"+"http://sunny.chat"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"【文章热度:"+time+"℃】"+"</font>"+"<br /><br />";
             document.getElementById("top").innerHTML+=content
         }
     }, function (error) {

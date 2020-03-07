@@ -4,9 +4,11 @@ date: 2019-04-24 09:54:50
 copyright: true
 top: 100
 categories:
-- diary
-- IDEA
+- 技术
+- Tech
 tags: 
+- hexo
+- IDEA
 - 记录坑
 - 编程工具
 photos: 
