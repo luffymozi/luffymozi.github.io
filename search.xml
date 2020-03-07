@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>前进中的2020</title>
-    <url>/%E5%89%8D%E8%BF%9B%E4%B8%AD%E7%9A%842020/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>虽然2020年开头有点残酷，但我们还得努力活着,不是吗?</p>
-</blockquote>
-<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>简单点说就是</p>
-<blockquote class="blockquote-center">全家身体健康！</blockquote><br><blockquote class="blockquote-center">工作顺利！</blockquote><br><blockquote class="blockquote-center">B站粉丝突破<font color="#FF8C00" size="10">10万</font>！</blockquote>
-
-]]></content>
-      <categories>
-        <category>生活</category>
-        <category>Life</category>
-      </categories>
-      <tags>
-        <tag>目标</tag>
-        <tag>2020</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>你好世界</title>
     <url>/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
@@ -37,6 +18,25 @@
       <categories>
         <category>技术</category>
       </categories>
+  </entry>
+  <entry>
+    <title>前进中的2020</title>
+    <url>/%E5%89%8D%E8%BF%9B%E4%B8%AD%E7%9A%842020/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>虽然2020年开头有点残酷，但我们还得努力活着,不是吗?</p>
+</blockquote>
+<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>简单点说就是</p>
+<blockquote class="blockquote-center">全家身体健康！</blockquote><br><blockquote class="blockquote-center">工作顺利！</blockquote><br><blockquote class="blockquote-center">B站粉丝突破<font color="#FF8C00" size="10">10万</font>！</blockquote>
+
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>目标</tag>
+        <tag>2020</tag>
+      </tags>
   </entry>
   <entry>
     <title>初次接触IDEA</title>
@@ -88,6 +88,12 @@
 <footer><strong>@Next</strong><cite><a href="http://theme-next.iissnan.com/getting-started.html#theme-settings" target="_blank" rel="noopener">theme-next.iissnan.com/getting-started.html#theme-settings</a></cite></footer></blockquote><br><blockquote><p>hexo的next主题个性化教程:打造炫酷网站</p>
 <footer><strong>@Moorez</strong><cite><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">www.jianshu.com/p/f054333ac9e6</a></cite></footer></blockquote></p>
 </blockquote>
+<h2 id="2020-3-6更新"><a href="#2020-3-6更新" class="headerlink" title="2020.3.6更新"></a>2020.3.6更新</h2><p>先前搭建好博客一直没有更新，现在决定使用上博客来记录生活的点滴，所以又重新优化了一下，其中包括了添加看板娘，添加排行榜页面，添加博客运行时间，添加彩色文字输出，添加网页音乐播放器插件。<br>个人比较懒，就不再详细述说，以下是借鉴的博客链接，值得大家细品：<br><blockquote><p>打造个性超赞博客 Hexo + NexT + GitHub Pages 的超深度优化</p>
+<footer><strong>@reuixiy</strong><cite><a href="https://io-oi.me/tech/hexo-next-optimization/#%E5%BF%85%E8%AF%BB-%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2" target="_blank" rel="noopener">io-oi.me/tech/hexo-next-optimization/#%E5%BF%85%E8%AF%BB-%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2</a></cite></footer></blockquote><br><blockquote><p>加速自己的hexo，使用GitHub+Coding实现国内外网站加速</p>
+<footer><strong>@残梦</strong><cite><a href="https://www.cnblogs.com/sunhang32/p/11969964.html#1.-%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE" target="_blank" rel="noopener">www.cnblogs.com/sunhang32/p/11969964.html#1.-%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE</a></cite></footer></blockquote><br><blockquote><p>Hexo 博客优化之博客美化系列（持续更新）</p>
+<footer><strong>@TRHX</strong><cite><a href="https://blog.csdn.net/qq_36759224/article/details/85420403" target="_blank" rel="noopener">blog.csdn.net/qq_36759224/article/details/85420403</a></cite></footer></blockquote><br><blockquote><p>Hexo博客优化：在Next主题中设置进阶版Live2D看板娘————拒绝踩坑！！！！</p>
+<footer><strong>@梆子井欢喜坨</strong><cite><a href="https://blog.csdn.net/qq_39610915/article/details/90679768" target="_blank" rel="noopener">blog.csdn.net/qq_39610915/article/details/90679768</a></cite></footer></blockquote><br><blockquote><p>明月浩空音乐播放器</p>
+<footer><strong>@明月浩空音乐播放器</strong><cite><a href="https://player.lmih.cn/" target="_blank" rel="noopener">player.lmih.cn</a></cite></footer></blockquote></p>
 ]]></content>
       <categories>
         <category>技术</category>
